@@ -188,7 +188,7 @@ function calculator( button ){
         return;
     }
 
-    updateOutputOperation( join(data.operation) );
+    updateOutputOperation( data.operation.join('') );
 }
 
 function updateOutputOperation(operation){
